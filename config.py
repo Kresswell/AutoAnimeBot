@@ -6,8 +6,8 @@ if os.path.exists("config.env"):
 elif os.path.exists("sample.env"):
     load_dotenv("sample.env")
 
-API_ID = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
+API_ID = os.getenv("26949669")
+API_HASH = os.getenv("4f1a7b9ea16310ecbabe42434da7a155")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 MONGO_DB_URI = os.getenv("MONGO_DB_URI")
 STATUS_MSG_ID = os.getenv("STATUS_MSG_ID")
